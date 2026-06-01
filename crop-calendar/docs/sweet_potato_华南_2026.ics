@@ -1,0 +1,56 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//crop-calendar//作物种植日历//CN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:作物种植日历
+X-WR-TIMEZONE:Asia/Shanghai
+BEGIN:VEVENT
+UID:crop-cal-sweet_potato-sow-sow-0-2026@crop-calendar
+DTSTART;TZID=Asia/Shanghai:20260315T080000
+DTEND;TZID=Asia/Shanghai:20260515T080000
+SUMMARY:🌱 甘薯（春甘薯（华南））播种期
+DESCRIPTION:甘薯（春甘薯（华南））播种窗口期
+BEGIN:VALARM
+TRIGGER:-PT4320M
+ACTION:DISPLAY
+DESCRIPTION:🌱 甘薯（春甘薯（华南））播种期 提醒
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:crop-cal-sweet_potato-fertilizer-fertilizer-1-2026@crop-calendar
+DTSTART;TZID=Asia/Shanghai:20260404T080000
+DTEND;TZID=Asia/Shanghai:20260405T080000
+SUMMARY:🧪 甘薯（春甘薯（华南））第一次追肥
+DESCRIPTION:播种后20天，甘薯（春甘薯（华南））第一次追肥
+BEGIN:VALARM
+TRIGGER:-PT1440M
+ACTION:DISPLAY
+DESCRIPTION:🧪 甘薯（春甘薯（华南））第一次追肥 提醒
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:crop-cal-sweet_potato-fertilizer-fertilizer-2-2026@crop-calendar
+DTSTART;TZID=Asia/Shanghai:20260504T080000
+DTEND;TZID=Asia/Shanghai:20260505T080000
+SUMMARY:🧪 甘薯（春甘薯（华南））第二次追肥
+DESCRIPTION:播种后50天，甘薯（春甘薯（华南））第二次追肥
+BEGIN:VALARM
+TRIGGER:-PT1440M
+ACTION:DISPLAY
+DESCRIPTION:🧪 甘薯（春甘薯（华南））第二次追肥 提醒
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:crop-cal-sweet_potato-harvest-harvest-3-2026@crop-calendar
+DTSTART;TZID=Asia/Shanghai:20260715T080000
+DTEND;TZID=Asia/Shanghai:20261030T080000
+SUMMARY:🌾 甘薯（春甘薯（华南））收获期
+DESCRIPTION:甘薯（春甘薯（华南））收获窗口期
+BEGIN:VALARM
+TRIGGER:-PT7200M
+ACTION:DISPLAY
+DESCRIPTION:🌾 甘薯（春甘薯（华南））收获期 提醒
+END:VALARM
+END:VEVENT
+END:VCALENDAR

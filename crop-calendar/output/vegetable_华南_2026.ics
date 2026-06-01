@@ -1,0 +1,104 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//crop-calendar//作物种植日历//CN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:作物种植日历
+X-WR-TIMEZONE:Asia/Shanghai
+BEGIN:VEVENT
+UID:crop-cal-vegetable-sow-sow-0-2026@crop-calendar
+DTSTART;TZID=Asia/Shanghai:20260201T080000
+DTEND;TZID=Asia/Shanghai:20260401T080000
+SUMMARY:🌱 蔬菜（以菜心为例）（春菜心）播种期
+DESCRIPTION:蔬菜（以菜心为例）（春菜心）播种窗口期
+BEGIN:VALARM
+TRIGGER:-PT4320M
+ACTION:DISPLAY
+DESCRIPTION:🌱 蔬菜（以菜心为例）（春菜心）播种期 提醒
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:crop-cal-vegetable-fertilizer-fertilizer-1-2026@crop-calendar
+DTSTART;TZID=Asia/Shanghai:20260208T080000
+DTEND;TZID=Asia/Shanghai:20260209T080000
+SUMMARY:🧪 蔬菜（以菜心为例）（春菜心）第一次追肥
+DESCRIPTION:播种后7天，蔬菜（以菜心为例）（春菜心）第一次追肥
+BEGIN:VALARM
+TRIGGER:-PT1440M
+ACTION:DISPLAY
+DESCRIPTION:🧪 蔬菜（以菜心为例）（春菜心）第一次追肥 提醒
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:crop-cal-vegetable-fertilizer-fertilizer-2-2026@crop-calendar
+DTSTART;TZID=Asia/Shanghai:20260222T080000
+DTEND;TZID=Asia/Shanghai:20260223T080000
+SUMMARY:🧪 蔬菜（以菜心为例）（春菜心）第二次追肥
+DESCRIPTION:播种后21天，蔬菜（以菜心为例）（春菜心）第二次追肥
+BEGIN:VALARM
+TRIGGER:-PT1440M
+ACTION:DISPLAY
+DESCRIPTION:🧪 蔬菜（以菜心为例）（春菜心）第二次追肥 提醒
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:crop-cal-vegetable-harvest-harvest-3-2026@crop-calendar
+DTSTART;TZID=Asia/Shanghai:20260320T080000
+DTEND;TZID=Asia/Shanghai:20260530T080000
+SUMMARY:🌾 蔬菜（以菜心为例）（春菜心）收获期
+DESCRIPTION:蔬菜（以菜心为例）（春菜心）收获窗口期
+BEGIN:VALARM
+TRIGGER:-PT7200M
+ACTION:DISPLAY
+DESCRIPTION:🌾 蔬菜（以菜心为例）（春菜心）收获期 提醒
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:crop-cal-vegetable-sow-sow-4-2026@crop-calendar
+DTSTART;TZID=Asia/Shanghai:20260901T080000
+DTEND;TZID=Asia/Shanghai:20261130T080000
+SUMMARY:🌱 蔬菜（以菜心为例）（秋菜心）播种期
+DESCRIPTION:蔬菜（以菜心为例）（秋菜心）播种窗口期
+BEGIN:VALARM
+TRIGGER:-PT4320M
+ACTION:DISPLAY
+DESCRIPTION:🌱 蔬菜（以菜心为例）（秋菜心）播种期 提醒
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:crop-cal-vegetable-fertilizer-fertilizer-5-2026@crop-calendar
+DTSTART;TZID=Asia/Shanghai:20260908T080000
+DTEND;TZID=Asia/Shanghai:20260909T080000
+SUMMARY:🧪 蔬菜（以菜心为例）（秋菜心）第一次追肥
+DESCRIPTION:播种后7天，蔬菜（以菜心为例）（秋菜心）第一次追肥
+BEGIN:VALARM
+TRIGGER:-PT1440M
+ACTION:DISPLAY
+DESCRIPTION:🧪 蔬菜（以菜心为例）（秋菜心）第一次追肥 提醒
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:crop-cal-vegetable-fertilizer-fertilizer-6-2026@crop-calendar
+DTSTART;TZID=Asia/Shanghai:20260922T080000
+DTEND;TZID=Asia/Shanghai:20260923T080000
+SUMMARY:🧪 蔬菜（以菜心为例）（秋菜心）第二次追肥
+DESCRIPTION:播种后21天，蔬菜（以菜心为例）（秋菜心）第二次追肥
+BEGIN:VALARM
+TRIGGER:-PT1440M
+ACTION:DISPLAY
+DESCRIPTION:🧪 蔬菜（以菜心为例）（秋菜心）第二次追肥 提醒
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:crop-cal-vegetable-harvest-harvest-7-2026@crop-calendar
+DTSTART;TZID=Asia/Shanghai:20261015T080000
+DTEND;TZID=Asia/Shanghai:20260131T080000
+SUMMARY:🌾 蔬菜（以菜心为例）（秋菜心）收获期
+DESCRIPTION:蔬菜（以菜心为例）（秋菜心）收获窗口期
+BEGIN:VALARM
+TRIGGER:-PT7200M
+ACTION:DISPLAY
+DESCRIPTION:🌾 蔬菜（以菜心为例）（秋菜心）收获期 提醒
+END:VALARM
+END:VEVENT
+END:VCALENDAR

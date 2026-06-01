@@ -1,0 +1,104 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//crop-calendar//作物种植日历//CN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:作物种植日历
+X-WR-TIMEZONE:Asia/Shanghai
+BEGIN:VEVENT
+UID:crop-cal-maize-sow-sow-0-2026@crop-calendar
+DTSTART;TZID=Asia/Shanghai:20260215T080000
+DTEND;TZID=Asia/Shanghai:20260401T080000
+SUMMARY:🌱 玉米（春玉米（华南））播种期
+DESCRIPTION:玉米（春玉米（华南））播种窗口期
+BEGIN:VALARM
+TRIGGER:-PT4320M
+ACTION:DISPLAY
+DESCRIPTION:🌱 玉米（春玉米（华南））播种期 提醒
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:crop-cal-maize-fertilizer-fertilizer-1-2026@crop-calendar
+DTSTART;TZID=Asia/Shanghai:20260302T080000
+DTEND;TZID=Asia/Shanghai:20260303T080000
+SUMMARY:🧪 玉米（春玉米（华南））第一次追肥
+DESCRIPTION:播种后15天，玉米（春玉米（华南））第一次追肥
+BEGIN:VALARM
+TRIGGER:-PT1440M
+ACTION:DISPLAY
+DESCRIPTION:🧪 玉米（春玉米（华南））第一次追肥 提醒
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:crop-cal-maize-fertilizer-fertilizer-2-2026@crop-calendar
+DTSTART;TZID=Asia/Shanghai:20260327T080000
+DTEND;TZID=Asia/Shanghai:20260328T080000
+SUMMARY:🧪 玉米（春玉米（华南））第二次追肥
+DESCRIPTION:播种后40天，玉米（春玉米（华南））第二次追肥
+BEGIN:VALARM
+TRIGGER:-PT1440M
+ACTION:DISPLAY
+DESCRIPTION:🧪 玉米（春玉米（华南））第二次追肥 提醒
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:crop-cal-maize-harvest-harvest-3-2026@crop-calendar
+DTSTART;TZID=Asia/Shanghai:20260615T080000
+DTEND;TZID=Asia/Shanghai:20260801T080000
+SUMMARY:🌾 玉米（春玉米（华南））收获期
+DESCRIPTION:玉米（春玉米（华南））收获窗口期
+BEGIN:VALARM
+TRIGGER:-PT7200M
+ACTION:DISPLAY
+DESCRIPTION:🌾 玉米（春玉米（华南））收获期 提醒
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:crop-cal-maize-sow-sow-4-2026@crop-calendar
+DTSTART;TZID=Asia/Shanghai:20260715T080000
+DTEND;TZID=Asia/Shanghai:20260815T080000
+SUMMARY:🌱 玉米（夏玉米（华南））播种期
+DESCRIPTION:玉米（夏玉米（华南））播种窗口期
+BEGIN:VALARM
+TRIGGER:-PT4320M
+ACTION:DISPLAY
+DESCRIPTION:🌱 玉米（夏玉米（华南））播种期 提醒
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:crop-cal-maize-fertilizer-fertilizer-5-2026@crop-calendar
+DTSTART;TZID=Asia/Shanghai:20260730T080000
+DTEND;TZID=Asia/Shanghai:20260731T080000
+SUMMARY:🧪 玉米（夏玉米（华南））第一次追肥
+DESCRIPTION:播种后15天，玉米（夏玉米（华南））第一次追肥
+BEGIN:VALARM
+TRIGGER:-PT1440M
+ACTION:DISPLAY
+DESCRIPTION:🧪 玉米（夏玉米（华南））第一次追肥 提醒
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:crop-cal-maize-fertilizer-fertilizer-6-2026@crop-calendar
+DTSTART;TZID=Asia/Shanghai:20260824T080000
+DTEND;TZID=Asia/Shanghai:20260825T080000
+SUMMARY:🧪 玉米（夏玉米（华南））第二次追肥
+DESCRIPTION:播种后40天，玉米（夏玉米（华南））第二次追肥
+BEGIN:VALARM
+TRIGGER:-PT1440M
+ACTION:DISPLAY
+DESCRIPTION:🧪 玉米（夏玉米（华南））第二次追肥 提醒
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:crop-cal-maize-harvest-harvest-7-2026@crop-calendar
+DTSTART;TZID=Asia/Shanghai:20261101T080000
+DTEND;TZID=Asia/Shanghai:20261215T080000
+SUMMARY:🌾 玉米（夏玉米（华南））收获期
+DESCRIPTION:玉米（夏玉米（华南））收获窗口期
+BEGIN:VALARM
+TRIGGER:-PT7200M
+ACTION:DISPLAY
+DESCRIPTION:🌾 玉米（夏玉米（华南））收获期 提醒
+END:VALARM
+END:VEVENT
+END:VCALENDAR

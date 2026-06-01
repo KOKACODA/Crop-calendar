@@ -1,0 +1,56 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//crop-calendar//作物种植日历//CN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:作物种植日历
+X-WR-TIMEZONE:Asia/Shanghai
+BEGIN:VEVENT
+UID:crop-cal-rape-harvest-harvest-0-2026@crop-calendar
+DTSTART;TZID=Asia/Shanghai:20260301T080000
+DTEND;TZID=Asia/Shanghai:20260430T080000
+SUMMARY:🌾 油菜（冬油菜（华南适种））收获期
+DESCRIPTION:油菜（冬油菜（华南适种））收获窗口期
+BEGIN:VALARM
+TRIGGER:-PT7200M
+ACTION:DISPLAY
+DESCRIPTION:🌾 油菜（冬油菜（华南适种））收获期 提醒
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:crop-cal-rape-sow-sow-1-2026@crop-calendar
+DTSTART;TZID=Asia/Shanghai:20260915T080000
+DTEND;TZID=Asia/Shanghai:20261030T080000
+SUMMARY:🌱 油菜（冬油菜（华南适种））播种期
+DESCRIPTION:油菜（冬油菜（华南适种））播种窗口期
+BEGIN:VALARM
+TRIGGER:-PT4320M
+ACTION:DISPLAY
+DESCRIPTION:🌱 油菜（冬油菜（华南适种））播种期 提醒
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:crop-cal-rape-fertilizer-fertilizer-2-2026@crop-calendar
+DTSTART;TZID=Asia/Shanghai:20261015T080000
+DTEND;TZID=Asia/Shanghai:20261016T080000
+SUMMARY:🧪 油菜（冬油菜（华南适种））第一次追肥
+DESCRIPTION:播种后30天，油菜（冬油菜（华南适种））第一次追肥
+BEGIN:VALARM
+TRIGGER:-PT1440M
+ACTION:DISPLAY
+DESCRIPTION:🧪 油菜（冬油菜（华南适种））第一次追肥 提醒
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:crop-cal-rape-fertilizer-fertilizer-3-2026@crop-calendar
+DTSTART;TZID=Asia/Shanghai:20261214T080000
+DTEND;TZID=Asia/Shanghai:20261215T080000
+SUMMARY:🧪 油菜（冬油菜（华南适种））第二次追肥
+DESCRIPTION:播种后90天，油菜（冬油菜（华南适种））第二次追肥
+BEGIN:VALARM
+TRIGGER:-PT1440M
+ACTION:DISPLAY
+DESCRIPTION:🧪 油菜（冬油菜（华南适种））第二次追肥 提醒
+END:VALARM
+END:VEVENT
+END:VCALENDAR

@@ -1,0 +1,56 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//crop-calendar//作物种植日历//CN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:作物种植日历
+X-WR-TIMEZONE:Asia/Shanghai
+BEGIN:VEVENT
+UID:crop-cal-peanut-sow-sow-0-2026@crop-calendar
+DTSTART;TZID=Asia/Shanghai:20260315T080000
+DTEND;TZID=Asia/Shanghai:20260430T080000
+SUMMARY:🌱 花生（春花生（华南））播种期
+DESCRIPTION:花生（春花生（华南））播种窗口期
+BEGIN:VALARM
+TRIGGER:-PT4320M
+ACTION:DISPLAY
+DESCRIPTION:🌱 花生（春花生（华南））播种期 提醒
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:crop-cal-peanut-fertilizer-fertilizer-1-2026@crop-calendar
+DTSTART;TZID=Asia/Shanghai:20260330T080000
+DTEND;TZID=Asia/Shanghai:20260331T080000
+SUMMARY:🧪 花生（春花生（华南））第一次追肥
+DESCRIPTION:播种后15天，花生（春花生（华南））第一次追肥
+BEGIN:VALARM
+TRIGGER:-PT1440M
+ACTION:DISPLAY
+DESCRIPTION:🧪 花生（春花生（华南））第一次追肥 提醒
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:crop-cal-peanut-fertilizer-fertilizer-2-2026@crop-calendar
+DTSTART;TZID=Asia/Shanghai:20260429T080000
+DTEND;TZID=Asia/Shanghai:20260430T080000
+SUMMARY:🧪 花生（春花生（华南））第二次追肥
+DESCRIPTION:播种后45天，花生（春花生（华南））第二次追肥
+BEGIN:VALARM
+TRIGGER:-PT1440M
+ACTION:DISPLAY
+DESCRIPTION:🧪 花生（春花生（华南））第二次追肥 提醒
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:crop-cal-peanut-harvest-harvest-3-2026@crop-calendar
+DTSTART;TZID=Asia/Shanghai:20260715T080000
+DTEND;TZID=Asia/Shanghai:20260830T080000
+SUMMARY:🌾 花生（春花生（华南））收获期
+DESCRIPTION:花生（春花生（华南））收获窗口期
+BEGIN:VALARM
+TRIGGER:-PT7200M
+ACTION:DISPLAY
+DESCRIPTION:🌾 花生（春花生（华南））收获期 提醒
+END:VALARM
+END:VEVENT
+END:VCALENDAR

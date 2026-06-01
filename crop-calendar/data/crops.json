@@ -1,0 +1,161 @@
+{
+  "rice": {
+    "name_zh": "水稻",
+    "name_en": "Rice",
+    "suitable_regions": ["华南", "华中", "华东", "西南"],
+    "seasons": [
+      {
+        "type": "早稻",
+        "sow_start": "03-01",
+        "sow_end": "04-15",
+        "transplant_start": "04-15",
+        "transplant_end": "05-15",
+        "harvest_start": "07-01",
+        "harvest_end": "08-15",
+        "fertilizer_days_after_sow": [10, 30, 60],
+        "notes": "华南早稻需注意3月倒春寒，建议覆盖薄膜保温"
+      },
+      {
+        "type": "晚稻",
+        "sow_start": "06-01",
+        "sow_end": "07-15",
+        "transplant_start": "07-15",
+        "transplant_end": "08-15",
+        "harvest_start": "10-15",
+        "harvest_end": "11-30",
+        "fertilizer_days_after_sow": [10, 30, 60],
+        "notes": "晚稻抽穗期避开华南秋季台风季，建议选择抗倒伏品种"
+      }
+    ]
+  },
+  "maize": {
+    "name_zh": "玉米",
+    "name_en": "Maize",
+    "suitable_regions": ["全国"],
+    "seasons": [
+      {
+        "type": "春玉米（华南）",
+        "sow_start": "02-15",
+        "sow_end": "04-01",
+        "harvest_start": "06-15",
+        "harvest_end": "08-01",
+        "fertilizer_days_after_sow": [15, 40],
+        "notes": "华南春玉米可提前至2月中旬播种，地温稳定≥10℃"
+      },
+      {
+        "type": "夏玉米（华南）",
+        "sow_start": "07-15",
+        "sow_end": "08-15",
+        "harvest_start": "11-01",
+        "harvest_end": "12-15",
+        "fertilizer_days_after_sow": [15, 40],
+        "notes": "夏玉米注意苗期防涝，华南7-8月降雨量较大"
+      }
+    ]
+  },
+  "vegetable": {
+    "name_zh": "蔬菜（以菜心为例）",
+    "name_en": "Vegetable (Choy Sum)",
+    "suitable_regions": ["华南"],
+    "seasons": [
+      {
+        "type": "春菜心",
+        "sow_start": "02-01",
+        "sow_end": "04-01",
+        "harvest_start": "03-20",
+        "harvest_end": "05-30",
+        "fertilizer_days_after_sow": [7, 21],
+        "notes": "华南全年可种菜心，春播注意预防霜霉病"
+      },
+      {
+        "type": "秋菜心",
+        "sow_start": "09-01",
+        "sow_end": "11-30",
+        "harvest_start": "10-15",
+        "harvest_end": "01-31",
+        "fertilizer_days_after_sow": [7, 21],
+        "notes": "秋播品质最佳，病虫害较少，是华南主产季"
+      }
+    ]
+  },
+  "soybean": {
+    "name_zh": "大豆",
+    "name_en": "Soybean",
+    "suitable_regions": ["华南", "华中", "东北", "华北"],
+    "seasons": [
+      {
+        "type": "春大豆（华南）",
+        "sow_start": "03-01",
+        "sow_end": "04-30",
+        "harvest_start": "07-01",
+        "harvest_end": "08-15",
+        "fertilizer_days_after_sow": [15, 45],
+        "notes": "华南春大豆可与玉米间作，提高土地利用率"
+      }
+    ]
+  },
+  "peanut": {
+    "name_zh": "花生",
+    "name_en": "Peanut",
+    "suitable_regions": ["华南", "华中", "华东"],
+    "seasons": [
+      {
+        "type": "春花生（华南）",
+        "sow_start": "03-15",
+        "sow_end": "04-30",
+        "harvest_start": "07-15",
+        "harvest_end": "08-30",
+        "fertilizer_days_after_sow": [15, 45],
+        "notes": "花生忌连作，建议与水稻轮作，减少青枯病"
+      }
+    ]
+  },
+  "sweet_potato": {
+    "name_zh": "甘薯",
+    "name_en": "Sweet Potato",
+    "suitable_regions": ["华南", "华中", "华北"],
+    "seasons": [
+      {
+        "type": "春甘薯（华南）",
+        "sow_start": "03-15",
+        "sow_end": "05-15",
+        "harvest_start": "07-15",
+        "harvest_end": "10-30",
+        "fertilizer_days_after_sow": [20, 50],
+        "notes": "华南可种两季，秋薯6月扦插，10-11月收获"
+      }
+    ]
+  },
+  "rape": {
+    "name_zh": "油菜",
+    "name_en": "Rape",
+    "suitable_regions": ["华中", "华东", "西南"],
+    "seasons": [
+      {
+        "type": "冬油菜（华南适种）",
+        "sow_start": "09-15",
+        "sow_end": "10-30",
+        "harvest_start": "03-01",
+        "harvest_end": "04-30",
+        "fertilizer_days_after_sow": [30, 90],
+        "notes": "华南冬季气温较高，油菜需注意防早苔，适时喷施硼肥"
+      }
+    ]
+  },
+  "wheat": {
+    "name_zh": "小麦",
+    "name_en": "Wheat",
+    "suitable_regions": ["华北", "华中", "西南"],
+    "seasons": [
+      {
+        "type": "冬小麦",
+        "sow_start": "10-15",
+        "sow_end": "11-30",
+        "harvest_start": "05-15",
+        "harvest_end": "06-15",
+        "fertilizer_days_after_sow": [30, 90, 150],
+        "notes": "华南地区小麦种植较少，仅粤北山区有少量种植"
+      }
+    ]
+  }
+}
